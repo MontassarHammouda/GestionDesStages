@@ -1,0 +1,158 @@
+body{
+    background: #caa2E9 ;
+    background: url(../../images/FOND.jpg);
+    background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+}
+
+header{
+	background: url(../../images/head3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border:1px solid;
+		border-radius: 0px 0px 10px 10px;
+	width: 75%;
+	height: 100px;
+    margin: auto;
+}
+
+footer{
+	background: url(../../images/head3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border:1px solid;
+	width: 80%;
+	height: 100px;
+    margin: auto;
+}
+
+nav li{
+	display: inline-block;
+    margin-right: 2%;
+        padding: 1%;
+}
+
+nav a{
+	margin-left: 5%;
+    color:white;
+    font-size: 1.8em;
+
+}
+nav a:hover{
+    color: red;
+    border-bottom: 3px solid #760001;
+    border-radius: 0px;
+}
+
+#skull{
+	border: 1px solid ;
+	width: 80%;
+	margin: auto;
+	background: url(../../images/Fond2.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+}
+
+#pied{
+	text-align: center;
+}
+
+td {
+    border: 1px solid black;
+}
+
+input{
+	width: 96%;
+	margin: auto;
+}
+
+#formulaire{
+	border: 1px solid black;
+		border-radius: 10px;
+	width: 45%;
+	margin: auto;
+}
+
+#affichage{
+	border: 1px solid black;
+		border-radius: 10px;
+	width: 100%;
+	margin: auto;
+
+}
+
+#affichage_table_user{
+	border: 1px solid black;
+		border-radius: 10px;
+	width: 75%;
+	margin: auto;
+}
+
+
+#authentification{
+	border: 2px solid white;
+	width: 17%;
+   float:  right;
+   background-image:url(../../images/fond1.jpg); 
+   padding: 0.5%;
+   border-radius: 0px 0px 10px 10px;
+}
+
+#btn_show_div_auth{
+	width: 7.5%;
+	height: 6em;
+   float:  right;
+
+background: transparent;
+background-image: url(../../images/se_co.png);
+background-repeat: no-repeat;
+background-size: 80%;
+border:none;
+cursor: pointer;
+}
+
+#auth_se_co{
+	width: 75%;
+	margin: auto;
+	background-color:#6495ED; 
+	border-radius: 5px;
+	display: block;
+	font-style: bold;
+	font-family: algerian;
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+
+#div_member{
+   border: 2px solid white;
+	width: 17%;
+   float:  right;
+   background-image:url(../../images/fond1.jpg); 
+   padding: 0.5%;
+   border-radius: 0px 0px 10px 10px;
+   text-align: center;
+}
+
+#se_deco{
+	color: white;
+}
+
+#nom_prenom{
+color: red;
+font-size: 23px;
+}
+
+#div_label_role{
+   border: 2px solid white;
+	width: 20%;
+   float:  right;
+   background-image:url(../../images/fond1.jpg); 
+   padding: 0.5%;
+   border-radius: 0px 0px 0px 10px;
+}
+
+#span_label_role{
+color: red;
+font-size: 25px;	
+}

@@ -1,0 +1,370 @@
+.box{
+	background-color:#2C3539;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 0.5em;
+	font-size: 1.2em;
+}
+
+body{
+    background: #caa2E9 ;
+    background: url(../../images/FOND.jpg);
+    background-repeat: repeat;
+	background-size: 100%;
+	color: white;
+	font-size: 20px;
+}
+
+header{
+	background: url(../../images/head3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border:1px solid;
+		border-radius: 0px 0px 10px 10px;
+	width: 80%;
+	height: 100px;
+    margin: auto;
+}
+
+footer{
+	background: url(../../images/head3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border:1px solid;
+	width: 80%;
+	height: 100px;
+    margin: auto;
+}
+
+nav li{
+	display: inline-block;
+    margin-right: 2%;
+      padding: 1%;
+}
+
+nav a{
+	margin-left: 5%;
+    color:white;
+    font-size: 1.4em;
+
+
+}
+nav a:hover{
+    color: red;
+    border-bottom: 3px solid #760001;
+    	border-radius: 10px;
+
+}
+
+#skull{
+	border: 1px solid ;
+	width: 80%;
+	margin: auto;
+	background: url(../../images/Fond2.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+}
+
+td {
+   border: 1px solid transparent; 
+}
+
+td  input {
+   width: 93%; 
+      font-weight: bold;
+      text-align: center;
+}
+
+input{
+	
+	margin: auto;
+	font-size:15px;
+	font-weight: bold;
+}
+
+select{
+	
+	font-weight: bold;
+}
+
+
+#formulaire{
+	border: 1px solid black;
+		border-radius: 10px;
+	width: 45%;
+	margin: auto;
+
+}
+
+#affichage{
+	border: 1px solid black;
+		border-radius: 10px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
+}
+
+#affichage_table_user{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 95%;
+	margin: auto;
+	margin-bottom: 2em;
+
+}
+
+.update{
+	background-color:red; 
+}
+
+#ok_modification{
+width: 60%;
+color : grey;
+border: 3px grey solid;
+border-radius: 10px;
+padding: 1.5em; 
+float: center;
+font-size: 2em;
+font-family: algerian;
+margin: auto;
+margin-top: 20%;
+}
+
+#no_modification{
+	border: 3px solid grey;
+	width: 40%;
+	margin: auto;
+	margin-top: 20%;
+	font-size: 2em;
+	font-family: algerian;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0.75em;
+	background-color: grey;
+	font-style: bold;
+}
+
+#tableau_de_bord{
+	width: 30%;
+	font-size: 2em;
+	margin: auto;
+	margin-bottom: 1em;
+
+
+}
+
+#tableau_de_bord2{
+	width: 30%;
+	font-size: 2em;
+	margin: auto;
+	margin-bottom: 1em;
+
+
+
+}
+
+#tableau_de_bord3{
+	width: 30%;
+	font-size: 2em;
+	margin: auto;
+
+}
+
+
+
+
+#ok_inscription{
+width: 60%;
+color : grey;
+border: 3px grey solid;
+border-radius: 10px;
+padding: 1.5em; 
+float: center;
+font-size: 2em;
+font-family: algerian;
+margin: auto;
+margin-top: 20%;
+}
+
+#no_inscription{
+width: 60%;
+color : grey;
+border: 3px grey solid;
+border-radius: 10px;
+padding: 1.5em; 
+float: center;
+font-size: 2em;
+font-family: algerian;
+margin: auto;
+margin-top: 20%;
+}
+
+#rep_inscription{
+	border: 3px solid grey;
+	width: 40%;
+	margin: auto;
+	margin-top: 20%;
+	font-size: 2em;
+	font-family: algerian;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0.75em;
+	background-color: grey;
+	font-style: bold;
+}
+
+
+#div_member{
+   border: 2px solid white;
+	width: 16%;
+   float:  right;
+   background-image:url(../../images/fond1.jpg); 
+   padding: 0.5%;
+   border-radius: 0px 0px 10px 10px;
+   text-align: center;
+}
+
+#se_deco{
+	color: white;
+}
+
+#nom_prenom{
+color: red;
+font-size: 23px;
+}
+
+#div_label_role{
+   border: 2px solid white;
+	width: 20%;
+   float:  right;
+   background-image:url(../../images/fond1.jpg); 
+   padding: 0.5%;
+   border-radius: 0px 0px 0px 10px;
+}
+
+#span_label_role{
+color: red;
+font-size: 25px;	
+}
+
+#modification{
+	border: 1px solid black;
+		border-radius: 10px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
+}
+
+#etat_stage_membre{
+	width: 75%;
+	margin: auto;
+	border-radius:15px;
+	padding: 0.5em; 
+	border: 1px solid white;
+}
+
+#div_profile{
+	margin:auto;
+	width: 70%;
+	text-shadow: 0 0 15px black;
+}
+
+#table_profil{
+	margin:auto;
+	width: 100%;
+	text-shadow: 0 0 15px black;
+	text-align: center;
+}
+
+#titre_Etat_du_stage{
+	margin-left:40%;
+	text-shadow: 0 0 15px black;
+	font-size: 1.3em;
+}
+
+#info_etat_stage_membre{
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 47%;
+	display: inline-block;
+	float: right;
+	padding: 0.5em;
+	background-color: #2C3539;
+}
+
+#gestion_etat_stage_membre{
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 80%;
+    display: inline-block;
+    float: left;
+    padding: 0.5em;
+}
+
+#ETAT_stage_membre{
+	padding: 0.5em;
+}
+
+#Gestion_stages_prof{
+	width: 85%;
+	margin: auto;
+	border-radius:15px;
+	padding: 0.5em; 
+	text-align: center;
+
+}
+
+#titre_Gestion_stages_prof{
+	width: 40%;
+	margin-left:30%;
+	text-shadow: 0 0 15px black;
+	font-size: 1.3em;
+	text-align: center;
+
+}
+
+div input {
+	/* width: 47%; */
+}
+
+
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #cecece;
+	background-color: black;
+	border: 2px solid white;
+	margin: 0.2em;
+}
+
+
+#rep_stg_accompli_non{
+	color: red;
+	background-color: #2C3539;
+	width: 9%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#rep_stg_accompli_oui{
+	color: green;
+	background-color: #2C3539;
+	width: 9%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	
+}
+
+#btn_confirmer{
+	margin-left: 2.5em;
+	font-weight: bold;
+}
+
+#prof_rep_oui{
+	background-color: green;
+}
