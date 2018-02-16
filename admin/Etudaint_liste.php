@@ -115,7 +115,7 @@ require_once '../classes/Soutenance.php';
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                         <h4 class="modal-title" id="Login">Date</h4>
                     </div>
-                    <center>
+                   
                     <div class="modal-body">
                         <form action="produit_new_action.php" method="post">
                             <div class="form-group">

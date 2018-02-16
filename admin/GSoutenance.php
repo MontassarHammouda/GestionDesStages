@@ -66,7 +66,7 @@ require_once '../classes/Soutenance.php';
                               </thead>
                               <tfoot>
                                   <tr>
-                                       <th>Id_stage</th>
+                                       <th>Theme De Stage</th>
                                       <th>id_soutenance</th>
                                       <th>id_responsable</th>
                                       <th>dateDebut</th>
@@ -78,11 +78,13 @@ require_once '../classes/Soutenance.php';
                               <?php 
 
                 $cat = new Stage();
-               $liste = $cat->liste();
-               foreach ($liste as $data) {
+                $sout = new soutenance();
+                $lsout = $sout->liste();
+               $liste = $cat->details();
+               foreach ($lsout as $data) {
                    ?>
                      <tr>
-              <td><?php echo $data->_id_stage; ?></td>
+              <td><?php echo $data->_Theme; ?></td>
                <td><?php echo $data->_id_soutenance; ?></td>
                <td><?php echo $data->_id_responsable; ?></td>
                <td><?php echo $data->_dateDebut; ?></td>
